@@ -6,12 +6,11 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./scss/main.css">
-
     <title>Malva | Головна</title>
 </head>
 <body>
 <div class="top-header">
-    <nav class="container-xl d-none d-md-flex align-items-center gap-4">
+    <nav class="container-xxl d-none d-md-flex align-items-center gap-4">
         <a href="#">Про нас</a>
         <a href="#">Відгуки</a>
         <a href="#">Оплата та доставка</a>
@@ -19,15 +18,40 @@
         <a href="#">Блог</a>
     </nav>
 </div>
-<header class="header">
-
+<header class="header position-sticky">
+    <nav class="header-middle container-xxl position-relative d-flex justify-content-end align-items-center gap-4">
+        <div class="d-none d-md-flex gap-4 me-auto">
+            <a href="#"><img alt="" src="../public/Phone.svg"></a>
+            <a href="#"><img alt="" src="../public/Instagram.svg"></a>
+        </div>
+        <h3 class="header-title">MALVA</h3>
+        <div class="d-flex gap-4 align-items-center">
+            <div class="position-relative search">
+                <input type="text" placeholder="Що шукаєте?" class="search d-none d-lg-block">
+                <button class="search"><img class="" src="../public/Search-icon.svg" alt=""></button>
+            </div>
+            <a href="#"><img alt="" src="../public/Heart.svg"></a>
+            <a href="#"><img alt="" src="../public/Profile-icon.svg"></a>
+            <a href="#"><img alt="" src="../public/Shopping-cart.svg"></a>
+            <button class="d-block d-md-none"><img alt="" src="../public/Burger-icon.svg"></button>
+        </div>
+    </nav>
 </header>
-<div class="bottom-header">
-
+<div class="d-none d-md-grid bottom-header position-sticky">
+    <nav class=" d-md-flex align-items-center">
+        <a href="#">постільна білизна</a>
+        <a href="#">ковдри</a>
+        <a href="#">пледи</a>
+        <a href="#">простирадла</a>
+        <a href="#">рушники</a>
+        <a href="#">піжами</a>
+        <a href="#">халати</a>
+        <a href="#">килими</a>
+    </nav>
 </div>
 <main>
     <img src="https://s3-alpha-sig.figma.com/img/1c75/65a2/3a4cd7ec4346ef5be2a741608ac13eb4?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gokyGdV5ATPSAiTHhWv8~~TGHHu0VgIdgT~fW6gaBNDZLt4br6H8h1cPNobGqjXK4uvNp6jOS274BDFm3WDAF23yZs7KVqaaTmPLDrnTu3ebelGJRz0SaVOZVvQYczFyU~w9pd1zSCfDy1iz1bp7I7W1xKS9dHxJLa5SbiaYsKCE2cwQDD4ApQvyHgnvWNa7Lz17Vu8RrVyy6aVcH8-Tdcxpn~C31dS-ckub0Rla8PQbLHEjtdotzsGMROwTjurQSV3mmMlgjFi2IJP8GTUi4AkU~65vPXUW04khCzFt7pKbj~6suqsaQB4P-mIk-yO2HBwRJuUp~ckpWT63tVWf4g__"
-         alt="main" class="img-fluid bg-primary">
+         alt="main" class="img-fluid bg-primary mx-auto">
 </main>
 <footer>
     <p>© 2021 Malva</p>
