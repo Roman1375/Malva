@@ -1,0 +1,21 @@
+$light: #B19A8D;
+$midle: #563D35;
+$dark: #2C1F1D;
+
+
+$theme-colors: (
+        "primary": #0D6EFDFF,
+        "secondary": #6c757d,
+        "success": #28a745,
+        "info": #17a2b8,
+        "warning": #ffc107,
+        "danger": #dc3545,
+        "white": #fff,
+        "light": $light,
+        "midle": $midle,
+        "dark": $dark,
+);
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap/scss/_reboot.scss";
+@import "custom";

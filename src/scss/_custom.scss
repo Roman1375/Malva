@@ -1,0 +1,35 @@
+$light: #B19A8D;
+$midle: #563D35;
+$dark: #2C1F1D;
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+body{
+    background-color: #f8f9fa;
+    font-size: 16px;
+    font-family: "Source Sans 3", sans-serif;
+    color: $dark;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    color: $dark;
+}
+.top-header{
+    min-height: 36px;
+    display: grid;
+    place-items: center;
+}
+.header{
+    min-height: 67px;
+    border-top: 1px solid $midle;
+    border-bottom: 1px solid $midle;
+}
+.bottom-header{
+    min-height: 36px;
+    display: grid;
+    place-items: center;
+}
