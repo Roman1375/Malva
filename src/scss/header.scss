@@ -1,14 +1,18 @@
-$light: #B19A8D;
-$middle: #563D35;
-$dark: #2C1F1D;
+@import "variables";
 
 .top-header {
   min-height: 36px;
   display: grid;
   place-items: center;
 
-  a:hover {
-    color: $light;
+  a {
+    font-size: 15px;
+    color: $dark;
+    padding: 0 8px;
+
+    &:hover {
+      color: $light;
+    }
   }
 }
 
@@ -35,18 +39,26 @@ $dark: #2C1F1D;
       .header-title {
         margin: 0 auto 0 0;
         font-weight: 500;
+        font-size: 36px;
         position: static;
         transform: translate(0, 0);
+      }
+      .buttons.search {
+        display: none;
       }
     }
 
     input.search {
-      background-color: #efefef;
-      border: none;
+      background-color: #F8F8F8;
+      border: 1px solid transparent;
       outline: none;
       padding: 7px 12px;
       flex-grow: 1;
       font-size: 16px;
+
+      &:focus {
+        border-color: $dark;
+      }
     }
 
     button.search {

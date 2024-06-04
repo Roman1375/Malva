@@ -1,6 +1,4 @@
-$light: #B19A8D;
-$midle: #563D35;
-$dark: #2C1F1D;
+@import "variables";
 
 
 $theme-colors: (
@@ -12,7 +10,7 @@ $theme-colors: (
         "danger": #dc3545,
         "white": #fff,
         "light": $light,
-        "midle": $midle,
+        "midle": $middle,
         "dark": $dark,
 );
 

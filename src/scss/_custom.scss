@@ -1,22 +1,45 @@
-$light: #B19A8D;
-$middle: #563D35;
-$dark: #2C1F1D;
+@import "variables";
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 @import "header";
+@import "products-section";
 
-body {
-  background-color: #f8f9fa;
-  font-size: 16px;
-  font-family: "Source Sans 3", sans-serif;
-  color: $dark;
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: #FFFFFF;
+  font-size: 14px;
+  font-family: "Source Sans 3", sans-serif;
+  color: $dark;
   overflow-x: hidden;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 0;
+}
+
+
 button {
+  padding: 0;
   background: transparent;
   border: none;
 }
@@ -24,4 +47,17 @@ button {
 a {
   text-decoration: none;
   color: $dark;
+}
+
+.outline-button{
+    border: 1px solid $middle;
+    padding: 8px 70px;
+    color: $middle;
+    transition: all 0.1s ease;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $middle;
+        color: white;
+    }
 }

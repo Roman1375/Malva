@@ -1,0 +1,55 @@
+@import "variables";
+
+.products-section {
+  max-width: 1010px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+
+  &-tabs {
+    button:hover {
+      color: $middle;
+      text-decoration: underline;
+    }
+
+    & button.tab-active {
+      color: $dark;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+  }
+}
+
+.product-card {
+  width: fit-content;
+  margin: 0 auto;
+
+  @media (max-width: 768px) {
+    &-info img {
+      width: 20px;
+      object-fit: cover;
+    }
+  }
+
+
+  &-title {
+    font-size: 15px;
+  }
+
+  &-price {
+    font-size: 14px;
+  }
+
+  &-old-price {
+    font-size: 12px;
+    color: $middle;
+  }
+
+  &-available {
+    font-size: 10px;
+    color: $middle;
+  }
+}
