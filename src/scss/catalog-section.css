@@ -1,0 +1,11 @@
+.catalog-section {
+  max-width: 1010px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+/*# sourceMappingURL=catalog-section.css.map */

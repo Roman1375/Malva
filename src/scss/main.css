@@ -12548,6 +12548,21 @@ progress {
   color: #563d35;
 }
 
+.catalog-section {
+  max-width: 1231px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+.catalog-section .catalog-card {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+
 * {
   margin: 0;
   padding: 0;
