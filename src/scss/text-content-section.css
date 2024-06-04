@@ -1,4 +1,4 @@
-.catalog-section{
+.text-content-section {
   max-width: 1231px;
   width: 100%;
   margin: 0 auto;
@@ -6,10 +6,6 @@
   flex-direction: column;
   justify-content: center;
   gap: 30px;
-
-  .catalog-card{
-    display: block;
-    margin: 0 auto;
-    width: fit-content;
-  }
 }
+
+/*# sourceMappingURL=text-content-section.css.map */
