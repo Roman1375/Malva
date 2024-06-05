@@ -12570,7 +12570,7 @@ progress {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 30px;
+  gap: 40px;
 }
 .text-content-section .text-content > p {
   max-width: 1030px;
@@ -12603,6 +12603,57 @@ progress {
   .text-content-section_image-block button {
     width: auto;
   }
+}
+
+.blog-section {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+.blog-section .swiper {
+  max-width: 1240px;
+  width: 100%;
+}
+.blog-section #left-slider-button img, .blog-section #right-slider-button img {
+  width: 48px;
+  height: 48px;
+}
+@media (max-width: 768px) {
+  .blog-section #left-slider-button img, .blog-section #right-slider-button img {
+    width: 20px;
+    height: 20px;
+  }
+}
+.blog-section .swiper-wrapper {
+  width: max-content;
+}
+.blog-section .swiper-slide {
+  display: block;
+  margin: 0 auto;
+  min-width: 390px;
+  max-width: 390px;
+}
+@media (max-width: 440px) {
+  .blog-section .swiper-slide {
+    min-width: 260px;
+  }
+}
+
+.follow-section {
+  max-width: 1240px;
+  margin: 70px auto 0 auto;
+}
+
+.images-block {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.images-block img {
+  object-fit: cover;
 }
 
 * {

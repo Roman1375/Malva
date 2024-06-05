@@ -1,0 +1,19 @@
+.blog-section {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+.blog-section .blog-slider {
+  max-width: 1231px;
+}
+.blog-section .blog-slider .blog-card {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+/*# sourceMappingURL=blog-section.css.map */
