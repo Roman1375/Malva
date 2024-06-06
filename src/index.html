@@ -22,7 +22,7 @@
         <a href="#">Блог</a>
     </nav>
 </div>
-<header class="header position-sticky z-3">
+<header class="header position-sticky z-2">
     <nav class="header-middle container-xxl position-relative d-flex justify-content-end align-items-center gap-4">
         <div class="d-none d-md-flex gap-4 me-auto">
             <a href="#"><img alt="" src="../public/icons/Phone.svg"></a>
@@ -37,11 +37,15 @@
             <a href="#"><img alt="" src="../public/icons/Heart.svg"></a>
             <a href="#"><img alt="" src="../public/icons/Profile-icon.svg"></a>
             <a href="#"><img alt="" src="../public/icons/Shopping-cart.svg"></a>
-            <button class="d-block d-md-none"><img alt="" src="../public/icons/Burger-icon.svg"></button>
+
+            <button type="button" data-bs-toggle="offcanvas" data-bs-target="#Backdrop"
+                    aria-controls="staticBackdrop" class="d-block d-md-none"><img alt=""
+                                                                                  src="../public/icons/Burger-icon.svg">
+            </button>
         </div>
     </nav>
 </header>
-<div class="d-none d-md-grid bottom-header position-sticky z-3">
+<div class="d-none d-md-grid bottom-header position-sticky z-2">
     <nav class=" d-md-flex align-items-center">
         <a href="#">постільна білизна</a>
         <a href="#">ковдри</a>
@@ -52,6 +56,33 @@
         <a href="#">халати</a>
         <a href="#">килими</a>
     </nav>
+</div>
+<div class="offcanvas offcanvas-start" style="width: 320px" tabindex="-1" id="Backdrop"
+     aria-labelledby="staticBackdropLabel">
+    <div class="p-3 d-flex flex-column">
+        <button type="button" class="btn-close ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <div class="side-menu-links d-flex flex-column">
+            <h5>Навігація</h5>
+            <nav class="d-flex flex-column">
+                <a href="#">Про нас</a>
+                <a href="#">Відгуки</a>
+                <a href="#">Оплата та доставка</a>
+                <a href="#">Обмін та повернення</a>
+                <a href="#">Блог</a>
+            </nav>
+            <h5 class="mt-4">Каталог</h5>
+            <nav class="d-flex flex-column">
+                <a href="#">постільна білизна</a>
+                <a href="#">ковдри</a>
+                <a href="#">пледи</a>
+                <a href="#">простирадла</a>
+                <a href="#">рушники</a>
+                <a href="#">піжами</a>
+                <a href="#">халати</a>
+                <a href="#">килими</a>
+            </nav>
+        </div>
+    </div>
 </div>
 <div>
     <img src="/public/Hero-image.png"
@@ -615,6 +646,7 @@
         </div>
         <div class="footer-info d-none d-md-flex">
             <div class="catalog">
+
                 <h6 class="mb-4">Каталог</h6>
                 <ul class="d-flex flex-column gap-2">
                     <li><a href="#">Постільна білизна</a></li>
@@ -649,8 +681,8 @@
     </h6>
 </div>
 
-
 <script type="module" src="js/swiper.js"></script>
+<script type="module" src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 
 </body>
 </html>
