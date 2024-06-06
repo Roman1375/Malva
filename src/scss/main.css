@@ -12656,6 +12656,51 @@ progress {
   object-fit: cover;
 }
 
+.footer-wrapper {
+  background-color: #EAE4DD;
+}
+
+.footer {
+  padding: 50px 0 30px 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .footer {
+    padding: 10px 0 30px 0;
+  }
+}
+.footer-socials {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer-title {
+  font-family: "Roboto tLight";
+  font-size: 38px;
+}
+.footer-info {
+  display: flex;
+  gap: 50px;
+}
+.footer .social-icons {
+  gap: 20px;
+}
+@media (max-width: 768px) {
+  .footer .social-icons {
+    gap: 40px;
+  }
+}
+.footer .catalog {
+  min-width: 160px;
+}
+.footer .catalog a:hover {
+  text-decoration: underline;
+}
+.footer .contacts {
+  max-width: 250px;
+}
+
 * {
   margin: 0;
   padding: 0;
