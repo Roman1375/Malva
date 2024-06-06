@@ -19,7 +19,7 @@
 1. Клонування репозиторію:
 
     ```bash
-    git clone https://github.com/yourusername/malva-main-page.git
+    git clone https://github.com/Roman1375/Malva.git
     ```
 
 2. Перейдіть у директорію проекту:
