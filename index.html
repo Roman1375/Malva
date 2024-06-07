@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./scss/main.css">
+    <link rel="stylesheet" href="src/scss/main.css">
     <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
@@ -25,8 +25,8 @@
 <header class="header position-sticky z-2">
     <nav class="header-middle container-xxl position-relative d-flex justify-content-end align-items-center gap-4">
         <div class="d-none d-md-flex gap-4 me-auto">
-            <a href="#"><img alt="" src="../public/icons/Phone.svg"></a>
-            <a href="#"><img alt="" src="../public/icons/Instagram.svg"></a>
+            <a href="#"><img alt="" src="public/icons/Phone.svg"></a>
+            <a href="#"><img alt="" src="public/icons/Instagram.svg"></a>
         </div>
         <a class="header-title" href="/">
             MALVA
@@ -34,15 +34,15 @@
         <div class="d-flex gap-3 gap-md-4 align-items-center">
             <div class="position-relative search">
                 <input type="text" placeholder="Що шукаєте?" class="search d-none d-lg-block">
-                <button class="search"><img class="" src="../public/icons/Search-icon.svg" alt=""></button>
+                <button class="search"><img class="" src="public/icons/Search-icon.svg" alt=""></button>
             </div>
-            <a href="#"><img alt="" src="../public/icons/Heart.svg"></a>
-            <a href="#"><img alt="" src="../public/icons/Profile-icon.svg"></a>
-            <a href="#"><img alt="" src="../public/icons/Shopping-cart.svg"></a>
+            <a href="#"><img alt="" src="public/icons/Heart.svg"></a>
+            <a href="#"><img alt="" src="public/icons/Profile-icon.svg"></a>
+            <a href="#"><img alt="" src="public/icons/Shopping-cart.svg"></a>
 
             <button type="button" data-bs-toggle="offcanvas" data-bs-target="#Backdrop"
                     aria-controls="staticBackdrop" class="d-block d-md-none"><img alt=""
-                                                                                  src="../public/icons/Burger-icon.svg">
+                                                                                  src="public/icons/Burger-icon.svg">
             </button>
         </div>
     </nav>
@@ -59,9 +59,9 @@
         <a href="#">килими</a>
     </nav>
 </div>
-<div class="offcanvas offcanvas-start" style="width: 320px" tabindex="-1" id="Backdrop"
+<div class="offcanvas offcanvas-end" style="width: 320px" tabindex="-1" id="Backdrop"
      aria-labelledby="staticBackdropLabel">
-    <div class="p-3 d-flex flex-column">
+    <div class="py-4 px-3 d-flex flex-column">
         <button type="button" class="btn-close ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         <div class="side-menu-links d-flex flex-column">
             <h5>Навігація</h5>
@@ -87,7 +87,7 @@
     </div>
 </div>
 <div>
-    <img src="/public/Hero-image.png"
+    <img src="public/Hero-image.png"
          alt="main" class="img-fluid w-100 mx-auto">
     <main class="mt-5 min-vh-100">
         <section class="products-section">
@@ -100,12 +100,12 @@
                 <li class="col-lg-3 col-6 col-md-4 col-sm-6">
                     <div class="product-card d-flex flex-column gap-2">
                         <a href="#">
-                            <img src='../public/product-images/Product-1.png' alt="product" class="img-fluid">
+                            <img src='public/product-images/Product-1.png' alt="product" class="img-fluid">
                         </a>
                         <div>
                             <div class="product-card-info d-flex justify-content-between">
                                 <h6 class="product-card-title col-10">Lorem ipsum dolor sit amet</h6>
-                                <button><img alt="" src="../public/icons/Heart.svg"></button>
+                                <button><img alt="" src="public/icons/Heart.svg"></button>
                             </div>
                             <span class="product-card-available col">Є в наявності</span>
                         </div>
@@ -113,11 +113,11 @@
                             <span class="product-card-price">1600 UAN</span>
                             <span class="product-card-old-price text-light text-decoration-line-through">1700 UAN</span>
                             <div class="product-card-stars ms-auto d-flex align-items-center gap-1">
-                                <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                <img src="../public/icons/Rating-star.svg" alt="star"/>
+                                <img src="public/icons/Rating-star.svg" alt="star"/>
+                                <img src="public/icons/Rating-star.svg" alt="star"/>
+                                <img src="public/icons/Rating-star.svg" alt="star"/>
+                                <img src="public/icons/Rating-star.svg" alt="star"/>
+                                <img src="public/icons/Rating-star.svg" alt="star"/>
                             </div>
                         </div>
                     </div>
@@ -125,12 +125,12 @@
                 <li class="col-lg-3 col-6 col-md-4 col-sm-6">
                     <div class="product-card d-flex flex-column gap-2">
                         <a href="#">
-                            <img src='../public/product-images/Product-2.png' alt="product" class="img-fluid">
+                            <img src='public/product-images/Product-2.png' alt="product" class="img-fluid">
                         </a>
                         <div>
                             <div class="product-card-info d-flex justify-content-between">
                                 <h6 class="product-card-title col-10">Lorem ipsum dolor sit amet</h6>
-                                <button><img alt="" src="../public/icons/Heart.svg"></button>
+                                <button><img alt="" src="public/icons/Heart.svg"></button>
                             </div>
                             <span class="product-card-available col">Є в наявності</span>
                         </div>
@@ -138,11 +138,11 @@
                             <span class="product-card-price">1600 UAN</span>
                             <span class="product-card-old-price text-light text-decoration-line-through">1700 UAN</span>
                             <div class="product-card-stars ms-auto d-flex align-items-center gap-1">
-                                <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                <img src="../public/icons/Rating-star.svg" alt="star"/>
+                                <img src="public/icons/Rating-star.svg" alt="star"/>
+                                <img src="public/icons/Rating-star.svg" alt="star"/>
+                                <img src="public/icons/Rating-star.svg" alt="star"/>
+                                <img src="public/icons/Rating-star.svg" alt="star"/>
+                                <img src="public/icons/Rating-star.svg" alt="star"/>
                             </div>
                         </div>
                     </div>
@@ -150,12 +150,12 @@
                 <li class="col-lg-3 col-6 col-md-4 col-sm-6">
                     <div class="product-card d-flex flex-column gap-2">
                         <a href="#">
-                            <img src='../public/product-images/Product-3.png' alt="product" class="img-fluid">
+                            <img src='public/product-images/Product-3.png' alt="product" class="img-fluid">
                         </a>
                         <div>
                             <div class="product-card-info d-flex justify-content-between">
                                 <h6 class="product-card-title col-10">Lorem ipsum dolor sit amet</h6>
-                                <button><img alt="" src="../public/icons/Heart.svg"></button>
+                                <button><img alt="" src="public/icons/Heart.svg"></button>
                             </div>
                             <span class="product-card-available col">Є в наявності</span>
                         </div>
@@ -163,11 +163,11 @@
                             <span class="product-card-price">1600 UAN</span>
                             <span class="product-card-old-price text-light text-decoration-line-through">1700 UAN</span>
                             <div class="product-card-stars ms-auto d-flex align-items-center gap-1">
-                                <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                <img src="../public/icons/Rating-star.svg" alt="star"/>
+                                <img src="public/icons/Rating-star.svg" alt="star"/>
+                                <img src="public/icons/Rating-star.svg" alt="star"/>
+                                <img src="public/icons/Rating-star.svg" alt="star"/>
+                                <img src="public/icons/Rating-star.svg" alt="star"/>
+                                <img src="public/icons/Rating-star.svg" alt="star"/>
                             </div>
                         </div>
                     </div>
@@ -175,12 +175,12 @@
                 <li class="col-lg-3 col-6 col-md-4 col-sm-6">
                     <div class="product-card d-flex flex-column gap-2">
                         <a href="#">
-                            <img src='../public/product-images/Product-4.png' alt="product" class="img-fluid">
+                            <img src='public/product-images/Product-4.png' alt="product" class="img-fluid">
                         </a>
                         <div>
                             <div class="product-card-info d-flex justify-content-between">
                                 <h6 class="product-card-title col-10">Lorem ipsum dolor sit amet</h6>
-                                <button><img alt="" src="../public/icons/Heart.svg"></button>
+                                <button><img alt="" src="public/icons/Heart.svg"></button>
                             </div>
                             <span class="product-card-available col">Є в наявності</span>
                         </div>
@@ -188,11 +188,11 @@
                             <span class="product-card-price">1600 UAN</span>
                             <span class="product-card-old-price text-light text-decoration-line-through">1700 UAN</span>
                             <div class="product-card-stars ms-auto d-flex align-items-center gap-1">
-                                <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                <img src="../public/icons/Rating-star.svg" alt="star"/>
+                                <img src="public/icons/Rating-star.svg" alt="star"/>
+                                <img src="public/icons/Rating-star.svg" alt="star"/>
+                                <img src="public/icons/Rating-star.svg" alt="star"/>
+                                <img src="public/icons/Rating-star.svg" alt="star"/>
+                                <img src="public/icons/Rating-star.svg" alt="star"/>
                             </div>
                         </div>
                     </div>
@@ -200,12 +200,12 @@
                 <li class="col-lg-3 col-6 col-md-4 col-sm-6">
                     <div class="product-card d-flex flex-column gap-2">
                         <a href="#">
-                            <img src='../public/product-images/Product-5.png' alt="product" class="img-fluid">
+                            <img src='public/product-images/Product-5.png' alt="product" class="img-fluid">
                         </a>
                         <div>
                             <div class="product-card-info d-flex justify-content-between">
                                 <h6 class="product-card-title col-10">Lorem ipsum dolor sit amet</h6>
-                                <button><img alt="" src="../public/icons/Heart.svg"></button>
+                                <button><img alt="" src="public/icons/Heart.svg"></button>
                             </div>
                             <span class="product-card-available col">Є в наявності</span>
                         </div>
@@ -213,11 +213,11 @@
                             <span class="product-card-price">1600 UAN</span>
                             <span class="product-card-old-price text-light text-decoration-line-through">1700 UAN</span>
                             <div class="product-card-stars ms-auto d-flex align-items-center gap-1">
-                                <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                <img src="../public/icons/Rating-star.svg" alt="star"/>
+                                <img src="public/icons/Rating-star.svg" alt="star"/>
+                                <img src="public/icons/Rating-star.svg" alt="star"/>
+                                <img src="public/icons/Rating-star.svg" alt="star"/>
+                                <img src="public/icons/Rating-star.svg" alt="star"/>
+                                <img src="public/icons/Rating-star.svg" alt="star"/>
                             </div>
                         </div>
                     </div>
@@ -225,12 +225,12 @@
                 <li class="col-lg-3 col-6 col-md-4 col-sm-6">
                     <div class="product-card d-flex flex-column gap-2">
                         <a href="#">
-                            <img src='../public/product-images/Product-6.png' alt="product" class="img-fluid">
+                            <img src='public/product-images/Product-6.png' alt="product" class="img-fluid">
                         </a>
                         <div>
                             <div class="product-card-info d-flex justify-content-between">
                                 <h6 class="product-card-title col-10">Lorem ipsum dolor sit amet</h6>
-                                <button><img alt="" src="../public/icons/Heart.svg"></button>
+                                <button><img alt="" src="public/icons/Heart.svg"></button>
                             </div>
                             <span class="product-card-available col">Є в наявності</span>
                         </div>
@@ -238,11 +238,11 @@
                             <span class="product-card-price">1600 UAN</span>
                             <span class="product-card-old-price text-light text-decoration-line-through">1700 UAN</span>
                             <div class="product-card-stars ms-auto d-flex align-items-center gap-1">
-                                <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                <img src="../public/icons/Rating-star.svg" alt="star"/>
+                                <img src="public/icons/Rating-star.svg" alt="star"/>
+                                <img src="public/icons/Rating-star.svg" alt="star"/>
+                                <img src="public/icons/Rating-star.svg" alt="star"/>
+                                <img src="public/icons/Rating-star.svg" alt="star"/>
+                                <img src="public/icons/Rating-star.svg" alt="star"/>
                             </div>
                         </div>
                     </div>
@@ -250,12 +250,12 @@
                 <li class="col-lg-3 col-6 col-md-4 col-sm-6">
                     <div class="product-card d-flex flex-column gap-2">
                         <a href="#">
-                            <img src='../public/product-images/Product-7.png' alt="product" class="img-fluid">
+                            <img src='public/product-images/Product-7.png' alt="product" class="img-fluid">
                         </a>
                         <div>
                             <div class="product-card-info d-flex justify-content-between">
                                 <h6 class="product-card-title col-10">Lorem ipsum dolor sit amet</h6>
-                                <button><img alt="" src="../public/icons/Heart.svg"></button>
+                                <button><img alt="" src="public/icons/Heart.svg"></button>
                             </div>
                             <span class="product-card-available col">Є в наявності</span>
                         </div>
@@ -263,11 +263,11 @@
                             <span class="product-card-price">1600 UAN</span>
                             <span class="product-card-old-price text-light text-decoration-line-through">1700 UAN</span>
                             <div class="product-card-stars ms-auto d-flex align-items-center gap-1">
-                                <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                <img src="../public/icons/Rating-star.svg" alt="star"/>
+                                <img src="public/icons/Rating-star.svg" alt="star"/>
+                                <img src="public/icons/Rating-star.svg" alt="star"/>
+                                <img src="public/icons/Rating-star.svg" alt="star"/>
+                                <img src="public/icons/Rating-star.svg" alt="star"/>
+                                <img src="public/icons/Rating-star.svg" alt="star"/>
                             </div>
                         </div>
                     </div>
@@ -281,7 +281,7 @@
                 <li class="col-lg-4 col-12 col-sm-6">
                     <div class="catalog-card">
                         <a href="#">
-                            <img src='../public/catalog-images/Catalog-item-1.png' alt="catalog" class="img-fluid">
+                            <img src='public/catalog-images/Catalog-item-1.png' alt="catalog" class="img-fluid">
                         </a>
                         <h5 class="catalog-card-title text-white px-3 fw-light bg-midle py-4">Постільна білизна</h5>
                     </div>
@@ -289,7 +289,7 @@
                 <li class="col-lg-4 col-12 col-sm-6">
                     <div class="catalog-card">
                         <a href="#">
-                            <img src='../public/catalog-images/Catalog-item-2.png' alt="catalog" class="img-fluid">
+                            <img src='public/catalog-images/Catalog-item-2.png' alt="catalog" class="img-fluid">
                         </a>
                         <h5 class="catalog-card-title text-white px-3 fw-light bg-midle py-4">Пледи</h5>
                     </div>
@@ -297,7 +297,7 @@
                 <li class="col-lg-4 col-12 col-sm-6">
                     <div class="catalog-card">
                         <a href="#">
-                            <img src='../public/catalog-images/Catalog-item-3.png' alt="catalog" class="img-fluid">
+                            <img src='public/catalog-images/Catalog-item-3.png' alt="catalog" class="img-fluid">
                         </a>
                         <h5 class="catalog-card-title text-white px-3 fw-light bg-midle py-4">Халати</h5>
                     </div>
@@ -305,7 +305,7 @@
                 <li class="col-lg-4 col-12 col-sm-6">
                     <div class="catalog-card">
                         <a href="#">
-                            <img src='../public/catalog-images/Catalog-item-4.png' alt="catalog" class="img-fluid">
+                            <img src='public/catalog-images/Catalog-item-4.png' alt="catalog" class="img-fluid">
                         </a>
                         <h5 class="catalog-card-title text-white px-3 fw-light bg-midle py-4">Простирадла</h5>
                     </div>
@@ -313,7 +313,7 @@
                 <li class="col-lg-4 col-12 col-sm-6">
                     <div class="catalog-card">
                         <a href="#">
-                            <img src='../public/catalog-images/Catalog-item-5.png' alt="catalog" class="img-fluid">
+                            <img src='public/catalog-images/Catalog-item-5.png' alt="catalog" class="img-fluid">
                         </a>
                         <h5 class="catalog-card-title text-white px-3 fw-light bg-midle py-4">Піжами</h5>
                     </div>
@@ -321,7 +321,7 @@
                 <li class="col-lg-4 col-12 col-sm-6">
                     <div class="catalog-card">
                         <a href="#">
-                            <img src='../public/catalog-images/Catalog-item-6.png' alt="catalog" class="img-fluid">
+                            <img src='public/catalog-images/Catalog-item-6.png' alt="catalog" class="img-fluid">
                         </a>
                         <h5 class="catalog-card-title text-white px-3 fw-light bg-midle py-4">Рушники</h5>
                     </div>
@@ -346,13 +346,13 @@
                             <li class="col">
                                 <div class="product-card d-flex flex-column gap-2">
                                     <a href="#">
-                                        <img src='../public/product-images/Product-8.png' alt="product"
+                                        <img src='public/product-images/Product-8.png' alt="product"
                                              class="img-fluid">
                                     </a>
                                     <div>
                                         <div class="product-card-info d-flex justify-content-between">
                                             <h6 class="product-card-title col-10">Lorem ipsum dolor sit amet</h6>
-                                            <button><img alt="" src="../public/icons/Heart.svg"></button>
+                                            <button><img alt="" src="public/icons/Heart.svg"></button>
                                         </div>
                                         <span class="product-card-available col">Є в наявності</span>
                                     </div>
@@ -360,11 +360,11 @@
                                         <span class="product-card-price">1600 UAN</span>
                                         <span class="product-card-old-price text-light text-decoration-line-through">1700 UAN</span>
                                         <div class="product-card-stars ms-auto d-flex align-items-center gap-1">
-                                            <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                            <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                            <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                            <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                            <img src="../public/icons/Rating-star.svg" alt="star"/>
+                                            <img src="public/icons/Rating-star.svg" alt="star"/>
+                                            <img src="public/icons/Rating-star.svg" alt="star"/>
+                                            <img src="public/icons/Rating-star.svg" alt="star"/>
+                                            <img src="public/icons/Rating-star.svg" alt="star"/>
+                                            <img src="public/icons/Rating-star.svg" alt="star"/>
                                         </div>
                                     </div>
                                 </div>
@@ -372,13 +372,13 @@
                             <li class=" col">
                                 <div class="product-card d-flex flex-column gap-2">
                                     <a href="#">
-                                        <img src='../public/product-images/Product-9.png' alt="product"
+                                        <img src='public/product-images/Product-9.png' alt="product"
                                              class="img-fluid">
                                     </a>
                                     <div>
                                         <div class="product-card-info d-flex justify-content-between">
                                             <h6 class="product-card-title col-10">Lorem ipsum dolor sit amet</h6>
-                                            <button><img alt="" src="../public/icons/Heart.svg"></button>
+                                            <button><img alt="" src="public/icons/Heart.svg"></button>
                                         </div>
                                         <span class="product-card-available col">Є в наявності</span>
                                     </div>
@@ -386,11 +386,11 @@
                                         <span class="product-card-price">1600 UAN</span>
                                         <span class="product-card-old-price text-light text-decoration-line-through">1700 UAN</span>
                                         <div class="product-card-stars ms-auto d-flex align-items-center gap-1">
-                                            <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                            <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                            <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                            <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                            <img src="../public/icons/Rating-star.svg" alt="star"/>
+                                            <img src="public/icons/Rating-star.svg" alt="star"/>
+                                            <img src="public/icons/Rating-star.svg" alt="star"/>
+                                            <img src="public/icons/Rating-star.svg" alt="star"/>
+                                            <img src="public/icons/Rating-star.svg" alt="star"/>
+                                            <img src="public/icons/Rating-star.svg" alt="star"/>
                                         </div>
                                     </div>
                                 </div>
@@ -398,7 +398,7 @@
                         </ul>
                         <button type="button" class="outline-button mx-auto col">Перейти до категорії</button>
                     </div>
-                    <img class="main-img" alt="" src="/public/content-images/Content-image-1.png">
+                    <img class="main-img" alt="" src="public/content-images/Content-image-1.png">
                 </div>
             </div>
             <div class="text-content d-flex align-items-md-start align-items-center flex-column gap-3">
@@ -418,13 +418,13 @@
                             <li class="col">
                                 <div class="product-card d-flex flex-column gap-2">
                                     <a href="#">
-                                        <img src='../public/product-images/Product-10.png' alt="product"
+                                        <img src='public/product-images/Product-10.png' alt="product"
                                              class="img-fluid">
                                     </a>
                                     <div>
                                         <div class="product-card-info d-flex justify-content-between">
                                             <h6 class="product-card-title col-10">Lorem ipsum dolor sit amet</h6>
-                                            <button><img alt="" src="../public/icons/Heart.svg"></button>
+                                            <button><img alt="" src="public/icons/Heart.svg"></button>
                                         </div>
                                         <span class="product-card-available col">Є в наявності</span>
                                     </div>
@@ -432,11 +432,11 @@
                                         <span class="product-card-price">1600 UAN</span>
                                         <span class="product-card-old-price text-light text-decoration-line-through">1700 UAN</span>
                                         <div class="product-card-stars ms-auto d-flex align-items-center gap-1">
-                                            <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                            <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                            <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                            <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                            <img src="../public/icons/Rating-star.svg" alt="star"/>
+                                            <img src="public/icons/Rating-star.svg" alt="star"/>
+                                            <img src="public/icons/Rating-star.svg" alt="star"/>
+                                            <img src="public/icons/Rating-star.svg" alt="star"/>
+                                            <img src="public/icons/Rating-star.svg" alt="star"/>
+                                            <img src="public/icons/Rating-star.svg" alt="star"/>
                                         </div>
                                     </div>
                                 </div>
@@ -444,13 +444,13 @@
                             <li class=" col">
                                 <div class="product-card d-flex flex-column gap-2">
                                     <a href="#">
-                                        <img src='../public/product-images/Product-11.png' alt="product"
+                                        <img src='public/product-images/Product-11.png' alt="product"
                                              class="img-fluid">
                                     </a>
                                     <div>
                                         <div class="product-card-info d-flex justify-content-between">
                                             <h6 class="product-card-title col-10">Lorem ipsum dolor sit amet</h6>
-                                            <button><img alt="" src="../public/icons/Heart.svg"></button>
+                                            <button><img alt="" src="public/icons/Heart.svg"></button>
                                         </div>
                                         <span class="product-card-available col">Є в наявності</span>
                                     </div>
@@ -458,11 +458,11 @@
                                         <span class="product-card-price">1600 UAN</span>
                                         <span class="product-card-old-price text-light text-decoration-line-through">1700 UAN</span>
                                         <div class="product-card-stars ms-auto d-flex align-items-center gap-1">
-                                            <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                            <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                            <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                            <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                            <img src="../public/icons/Rating-star.svg" alt="star"/>
+                                            <img src="public/icons/Rating-star.svg" alt="star"/>
+                                            <img src="public/icons/Rating-star.svg" alt="star"/>
+                                            <img src="public/icons/Rating-star.svg" alt="star"/>
+                                            <img src="public/icons/Rating-star.svg" alt="star"/>
+                                            <img src="public/icons/Rating-star.svg" alt="star"/>
                                         </div>
                                     </div>
                                 </div>
@@ -470,7 +470,7 @@
                         </ul>
                         <button type="button" class="outline-button mx-auto col">Перейти до категорії</button>
                     </div>
-                    <img class="main-img" alt="" src="/public/content-images/Content-image-2.png">
+                    <img class="main-img" alt="" src="public/content-images/Content-image-2.png">
                 </div>
             </div>
             <div class="text-content d-flex align-items-md-end align-items-center flex-column gap-3">
@@ -490,13 +490,13 @@
                             <li class="col">
                                 <div class="product-card d-flex flex-column gap-2">
                                     <a href="#">
-                                        <img src='../public/product-images/Product-12.png' alt="product"
+                                        <img src='public/product-images/Product-12.png' alt="product"
                                              class="img-fluid">
                                     </a>
                                     <div>
                                         <div class="product-card-info d-flex justify-content-between">
                                             <h6 class="product-card-title col-10">Lorem ipsum dolor sit amet</h6>
-                                            <button><img alt="" src="../public/icons/Heart.svg"></button>
+                                            <button><img alt="" src="public/icons/Heart.svg"></button>
                                         </div>
                                         <span class="product-card-available col">Є в наявності</span>
                                     </div>
@@ -504,11 +504,11 @@
                                         <span class="product-card-price">1600 UAN</span>
                                         <span class="product-card-old-price text-light text-decoration-line-through">1700 UAN</span>
                                         <div class="product-card-stars ms-auto d-flex align-items-center gap-1">
-                                            <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                            <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                            <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                            <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                            <img src="../public/icons/Rating-star.svg" alt="star"/>
+                                            <img src="public/icons/Rating-star.svg" alt="star"/>
+                                            <img src="public/icons/Rating-star.svg" alt="star"/>
+                                            <img src="public/icons/Rating-star.svg" alt="star"/>
+                                            <img src="public/icons/Rating-star.svg" alt="star"/>
+                                            <img src="public/icons/Rating-star.svg" alt="star"/>
                                         </div>
                                     </div>
                                 </div>
@@ -516,13 +516,13 @@
                             <li class=" col">
                                 <div class="product-card d-flex flex-column gap-2">
                                     <a href="#">
-                                        <img src='../public/product-images/Product-13.png' alt="product"
+                                        <img src='public/product-images/Product-13.png' alt="product"
                                              class="img-fluid">
                                     </a>
                                     <div>
                                         <div class="product-card-info d-flex justify-content-between">
                                             <h6 class="product-card-title col-10">Lorem ipsum dolor sit amet</h6>
-                                            <button><img alt="" src="../public/icons/Heart.svg"></button>
+                                            <button><img alt="" src="public/icons/Heart.svg"></button>
                                         </div>
                                         <span class="product-card-available col">Є в наявності</span>
                                     </div>
@@ -530,11 +530,11 @@
                                         <span class="product-card-price">1600 UAN</span>
                                         <span class="product-card-old-price text-light text-decoration-line-through">1700 UAN</span>
                                         <div class="product-card-stars ms-auto d-flex align-items-center gap-1">
-                                            <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                            <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                            <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                            <img src="../public/icons/Rating-star.svg" alt="star"/>
-                                            <img src="../public/icons/Rating-star.svg" alt="star"/>
+                                            <img src="public/icons/Rating-star.svg" alt="star"/>
+                                            <img src="public/icons/Rating-star.svg" alt="star"/>
+                                            <img src="public/icons/Rating-star.svg" alt="star"/>
+                                            <img src="public/icons/Rating-star.svg" alt="star"/>
+                                            <img src="public/icons/Rating-star.svg" alt="star"/>
                                         </div>
                                     </div>
                                 </div>
@@ -542,7 +542,7 @@
                         </ul>
                         <button type="button" class="outline-button mx-auto col">Перейти до категорії</button>
                     </div>
-                    <img class="main-img" alt="" src="/public/content-images/Content-image-3.png">
+                    <img class="main-img" alt="" src="public/content-images/Content-image-3.png">
                 </div>
             </div>
         </section>
@@ -551,13 +551,13 @@
             <div class="w-100 d-flex justify-content-between  mx-auto">
                 <button id="left-slider-button" class="d-flex justify-content-start align-items-center mx-auto"
                         type="button">
-                    <img src="/public/icons/Left-arrow.svg" alt="">
+                    <img src="public/icons/Left-arrow.svg" alt="">
                 </button>
                 <div class="swiper blog-slider overflow-hidden">
                     <ul class="swiper-wrapper  mx-auto">
                         <li class="swiper-slide">
                             <a href="#">
-                                <img src='../public/blog-images/Blog-image-1.png' alt="catalog"
+                                <img src='public/blog-images/Blog-image-1.png' alt="catalog"
                                      class="img-fluid">
                             </a>
                             <div class="opa text-white d-flex flex-column gap-2 px-3 bg-midle py-4">
@@ -571,7 +571,7 @@
                         </li>
                         <li class="swiper-slide">
                             <a href="#">
-                                <img src='../public/blog-images/Blog-image-2.png' alt="catalog"
+                                <img src='public/blog-images/Blog-image-2.png' alt="catalog"
                                      class="img-fluid">
                             </a>
                             <div class="opa text-white d-flex flex-column gap-2 px-3 bg-midle py-4">
@@ -585,7 +585,7 @@
                         </li>
                         <li class="swiper-slide">
                             <a href="#">
-                                <img src='../public/blog-images/Blog-image-3.png' alt="catalog"
+                                <img src='public/blog-images/Blog-image-3.png' alt="catalog"
                                      class="img-fluid">
                             </a>
                             <div class="opa text-white d-flex flex-column gap-2 px-3 bg-midle py-4">
@@ -599,7 +599,7 @@
                         </li>
                         <li class="swiper-slide">
                             <a href="#">
-                                <img src='../public/blog-images/Blog-image-2.png' alt="catalog"
+                                <img src='public/blog-images/Blog-image-2.png' alt="catalog"
                                      class="img-fluid">
                             </a>
                             <div class="opa text-white d-flex flex-column gap-2 px-3 bg-midle py-4">
@@ -611,12 +611,11 @@
                                 </p>
                             </div>
                         </li>
-
                     </ul>
                 </div>
                 <button id="right-slider-button" class="d-flex justify-content-start align-items-center mx-auto"
                         type="button">
-                    <img src="/public/icons/Right-arrow.svg" alt="">
+                    <img src="public/icons/Right-arrow.svg" alt="">
                 </button>
             </div>
             <button type="button" class="d-block d-md-none outline-button mt-2 mx-auto">Переглянути всі статті</button>
@@ -629,9 +628,9 @@
                 </button>
             </div>
             <div class="images-block mt-5 row">
-                <img class="col-6  col-lg-4" alt="" src="/public/content-images/Content-image-4.png">
-                <img class="col-6  col-lg-4" alt="" src="/public/content-images/Content-image-5.png">
-                <img class="d-none d-lg-block  col-lg-4" alt="" src="/public/content-images/Content-image-6.png">
+                <img class="col-6  col-lg-4" alt="" src="public/content-images/Content-image-4.png">
+                <img class="col-6  col-lg-4" alt="" src="public/content-images/Content-image-5.png">
+                <img class="d-none d-lg-block  col-lg-4" alt="" src="public/content-images/Content-image-6.png">
             </div>
         </section>
     </main>
@@ -641,9 +640,9 @@
         <div class="footer-socials mx-auto mx-md-0">
             <h3 class="footer-title mb-2 text-center fw-medium">MALVA</h3>
             <div class="social-icons d-flex ms-md-3 align-items-center">
-                <a href="#"><img alt="" style="width: 24px" src="/public/icons/Facebook%20icon.svg"></a>
-                <a href="#"><img alt="" style="width: 24px" src="/public/icons/Instagram.svg"></a>
-                <a href="#"><img alt="" style="width: 24px" src="/public/icons/Tik-tok.svg"></a>
+                <a href="#"><img alt="" style="width: 24px" src="public/icons/Facebook%20icon.svg"></a>
+                <a href="#"><img alt="" style="width: 24px" src="public/icons/Instagram.svg"></a>
+                <a href="#"><img alt="" style="width: 24px" src="public/icons/Tik-tok.svg"></a>
             </div>
         </div>
         <div class="footer-info d-none d-md-flex">
@@ -683,8 +682,8 @@
     </h6>
 </div>
 
-<script type="module" src="js/swiper.js"></script>
-<script type="module" src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script type="module" src="src/js/swiper.js"></script>
+<script type="module" src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 
 </body>
 </html>
